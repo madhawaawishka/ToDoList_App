@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">To Do List App</string>
+    <string name="splash_screen_header">Task Management &amp; To Do List</string>
+    <string name="splash_screen_explanation">Add new tasks and organize your tasks</string>
+    <string name="splash_screen_button">Let\'s Start</string>
+    <string name="home_page_header">Welcome to Notes</string>
+    <string name="home_page_text">Have a great day !</string>
+    <string name="title_text">Task Title</string>
+    <string name="date_text">Date</string>
+    <string name="time_text">Time</string>
+    <string name="add_task_button">Create Task</string>
+    <string name="update_task_button">Update Task</string>
+</resources>
