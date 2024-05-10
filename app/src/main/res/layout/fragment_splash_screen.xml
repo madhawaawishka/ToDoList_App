@@ -21,10 +21,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="48dp"
             android:layout_marginTop="32dp"
-            android:layout_marginEnd="47dp"
+            android:layout_marginEnd="4dp"
             android:adjustViewBounds="true"
             android:src="@drawable/splash_screen_image"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

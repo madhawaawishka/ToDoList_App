@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">To Do List App</string>
-    <string name="splash_screen_header">Task Management &amp; To Do List</string>
-    <string name="splash_screen_explanation">Add new tasks and organize your tasks</string>
+    <string name="splash_screen_header">Boost Your Productivity</string>
+    <string name="splash_screen_explanation">Organize,Prioritize</string>
     <string name="splash_screen_button">Let\'s Start</string>
     <string name="home_page_header">Welcome to Notes</string>
     <string name="home_page_text">Have a great day !</string>
