@@ -233,7 +233,8 @@
             tools:layout_editor_absoluteX="144dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="@dimen/update_task_button"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
