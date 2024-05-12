@@ -39,17 +39,14 @@
                 android:id="@+id/tv_home_page_header"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/home_page_header"
+                android:text="TODO"
                 android:textColor="@color/black"
                 android:textSize="@dimen/home_page_header"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:gravity="center" /> <!-- Set gravity to center -->
 
-            <TextView
-                android:id="@+id/tv_home_page_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/home_page_text"
-                android:textColor="@color/material_dynamic_neutral60" />
+
+
         </LinearLayout>
 
         <SearchView

@@ -55,7 +55,7 @@
             android:layout_marginTop="32dp"
             android:text="@string/title_text"
             android:textColor="@color/black"
-            android:textSize="@dimen/text_title"
+            android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="@+id/linearLayoutTitle"
             app:layout_constraintTop_toBottomOf="@+id/toolbarTaskDetail" />
@@ -92,6 +92,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:ems="10"
+                android:textSize="24sp"
                 android:hint="Type here"
                 android:inputType="text"
                 android:text="@{taskObject.taskTitle}"
@@ -145,6 +146,7 @@
                 android:ems="10"
                 android:focusable="false"
                 android:hint="03/11/2023"
+                android:textSize="24sp"
                 android:inputType="text"
                 android:onClick="@{() -> taskDetailFragment.selectDate()}"
                 android:text="@{taskDate}"
@@ -199,6 +201,7 @@
                 android:focusable="false"
                 android:hint="15:30"
                 android:inputType="text"
+                android:textSize="24sp"
                 android:onClick="@{() -> taskDetailFragment.selectTime()}"
                 android:text="@{taskTime}"
                 tools:ignore="HardcodedText" />
@@ -210,7 +213,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"
-            android:backgroundTint="@color/bg_button"
+
             android:onClick="@{() -> taskDetailFragment.updateTask(taskObject.taskId, editTextTitle.getText().toString(), editTextDate.getText().toString(), editTextTime.getText().toString())}"
             android:padding="10dp"
             android:text="@string/update_task_button"
@@ -226,7 +229,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"
-            android:backgroundTint="@color/bg_button"
             android:onClick="@{() -> taskDetailFragment.onDeleteTaskClicked(taskObject)}"
             android:text="Delete Task"
             app:layout_constraintTop_toBottomOf="@+id/buttonUpdateTask"
@@ -234,7 +236,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:textSize="@dimen/update_task_button"/>
+            android:textSize="@dimen/update_task_button"
+            android:backgroundTint="@color/red"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
