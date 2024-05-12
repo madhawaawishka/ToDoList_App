@@ -8,8 +8,8 @@
     <color name="gradient_center">#FAFAFB</color>
     <color name="gradient_end">#DCDEE2</color>
     <color name="bg_edit_text">#F6F6F6</color>
-    <color name="red">#800000</color>
-    <color name="yellow">#ffa31a</color>
+    <color name="red">#9F362A</color>
+    <color name="yellow">#F6BD52</color>
     <color name="green"> #003300</color>
 
 </resources>

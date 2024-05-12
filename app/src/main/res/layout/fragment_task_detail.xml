@@ -213,7 +213,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"
-
+            android:backgroundTint="@color/yellow"
             android:onClick="@{() -> taskDetailFragment.updateTask(taskObject.taskId, editTextTitle.getText().toString(), editTextDate.getText().toString(), editTextTime.getText().toString())}"
             android:padding="10dp"
             android:text="@string/update_task_button"
@@ -226,6 +226,7 @@
         <Button
             android:id="@+id/buttonDeleteTask"
             android:layout_width="0dp"
+
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"
