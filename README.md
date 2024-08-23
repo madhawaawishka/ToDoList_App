@@ -72,10 +72,10 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Screenshots
 
 <p align="center">
-  <img src="scrennshots/Screenshot_20240823_131605.png" alt="Home Screen" width="230"/>
-  <img src="scrennshots/Screenshot_20240823_131622.png" alt="Task List" width="230"/>
-  <img src="scrennshots/Screenshot_20240823_131633.png" alt="Add Task" width="230"/>
-  <img src="scrennshots/Screenshot_20240823_131644.png" alt="Update Task" width="230"/>
+  <img src="scrennshots/Screenshot_20240823_131605.png" alt="Home Screen" width="200"/>
+  <img src="scrennshots/Screenshot_20240823_131622.png" alt="Task List" width="200"/>
+  <img src="scrennshots/Screenshot_20240823_131633.png" alt="Add Task" width="200"/>
+  <img src="scrennshots/Screenshot_20240823_131644.png" alt="Update Task" width="200"/>
 </p>
 
 ## 🔗 Links
